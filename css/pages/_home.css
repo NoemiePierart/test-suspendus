@@ -1,0 +1,162 @@
+/* Side buttons : "offrir" and "recevoir" */
+#side-buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+}
+
+#side-buttons .btn {
+  border-radius: 1.25rem 0 0 1.25rem !important
+}
+
+/* SECTION 1 : Home hero banner */
+
+#home-hero .row {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Home hero banner - Top Row */
+
+#home-logo {
+  width: 200px;
+  height: auto;
+}
+
+#img-woman-whith-hearts {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  #img-woman-whith-hearts {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  #home-hero #top-row {
+    margin-top: 120px;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #img-woman-whith-hearts {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+
+
+/* Home hero banner - Bottom Row */
+
+#home-hero #bottom-row {
+  margin-top: 24px;
+}
+
+#img-city {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+li::marker {
+  font-size: 1.6em !important;
+  color: #005B81 !important;
+  font-style: italic;
+  font-family: 'Satisfy', cursive;
+}
+
+@media (min-width: 768px) { 
+  #img-city {
+    width: 300px;
+    height: 300px;
+  }
+
+  #home-hero #bottom-row {
+    margin-left: 60px;
+    margin-top: 0;
+  }
+}
+
+/* SECTION 2: Map Container */
+
+#map-container {
+  border-radius: 50%;
+  padding: 8px;
+  width: 300px;
+  height: 300px;
+}
+
+#map-row {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 16px;
+}
+
+#map-row :first-child {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  #map-row {
+    flex-direction: row;
+  }
+  #map-container {
+    width: 400px;
+    height: 400px;
+    margin-left: -100px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #map-row {
+    margin-left: -150px;
+    margin-top: -100px;
+  }
+  #map-container {
+    width: 650px;
+    height: 650px;
+  }
+  #map-row:first-child {
+    justify-content: end;
+  }
+
+}
+
+/* Home Form */
+
+#home-search-offers {
+  display: flex;
+  align-items: center;
+  border: 2px solid #03b563;
+  border-radius: 50px
+}
+
+#target-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.input-group-text {
+  border: none !important;
+  background-color: white !important;
+  padding: 0 !important;
+}
+
+.form-control {
+  border: none !important
+}
+

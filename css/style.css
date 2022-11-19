@@ -1,0 +1,40 @@
+@import url("components/index.css");
+@import url("pages/index.css");
+
+
+img {
+  object-fit: cover !important;
+}
+
+@media (min-width: 768px) { 
+  .dotted-large {
+    --d:2deg; /* distance between dashes */
+    --n:100;   /* number of dashes */
+    --c:#80DAB1; /* color of dashes */
+    border:2px solid transparent; /* control the thickness of border*/
+    background: 
+      linear-gradient(#fff,#fff) padding-box padding-box,
+      repeating-conic-gradient(
+          var(--c)    0 calc(360deg/var(--n) - var(--d)), 
+          transparent 0 calc(360deg/var(--n)) 
+      ) border-box;
+  }
+}
+
+.dotted-small {
+  --d:2deg; /* distance between dashes */
+  --n:80;   /* number of dashes */
+  --c:#80DAB1; /* color of dashes */
+  border:2px solid transparent; /* control the thickness of border*/
+  background: 
+    linear-gradient(#fff,#fff) padding-box padding-box,
+    repeating-conic-gradient(
+        var(--c)    0 calc(360deg/var(--n) - var(--d)), 
+        transparent 0 calc(360deg/var(--n)) 
+    ) border-box;
+}
+
+/* keep the element square */
+.dotted-large:before, .dotted-small:before {
+  content:"";
+}

@@ -1,0 +1,12 @@
+#navbar-logo{
+  height: 60px;
+  object-fit: cover;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  border: none !important
+}

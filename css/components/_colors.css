@@ -1,0 +1,26 @@
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.blue {
+  color: #005B81 !important;
+}
+
+.green {
+  color: #03B563 !important
+}
+
+.bg-blue {
+  background-color: #005B81 !important;
+}
+
+.bg-green {
+  background-color: #03B563 !important;
+}
+
+@media (min-width: 768px) { 
+  .bg-gray {
+    background-color: #F3F3F3 !important;
+  }
+}

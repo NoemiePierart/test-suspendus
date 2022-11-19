@@ -1,0 +1,29 @@
+
+.btn {
+  border-radius: 1.25rem !important;
+  padding: 8px 12px;
+}
+
+.btn-blue {
+  background-color: #005B81 !important;
+  color: white !important;
+}
+
+.btn-blue:hover {
+  background-color: white !important;
+  color: #005B81 !important;
+  border: 1px solid #005B81;
+}
+
+
+.btn-green {
+  background-color: #03b563 !important;
+  color: white !important;
+}
+
+.btn-green:hover {
+  background-color: white !important;
+  color: #03b563 !important;
+  border: 1px solid #03b563;
+}
+

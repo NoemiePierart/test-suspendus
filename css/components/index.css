@@ -1,0 +1,17 @@
+@import url("_buttons.css");
+@import url("_circles.css");
+@import url("_colors.css");
+@import url("_fonts.css");
+@import url("_navbar.css");
+
+.container {
+  /* width: 100vw !important; */
+  margin: 0 auto;
+  padding: 16px;
+}
+
+@media (min-width: 992px) { 
+  .container {
+    max-width: 1140px !important;
+ }
+}
